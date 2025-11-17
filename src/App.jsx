@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="min-h-screen bg-[#0b0320]">
       <Navbar />
-      <Hero />
-      <Featured />
+      <main className="pt-16">{/* offset fixed nav */}
+        <Hero />
+        <Featured />
+      </main>
       <Footer />
     </div>
   )
